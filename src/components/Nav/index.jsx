@@ -23,6 +23,7 @@ export default function Nav() {
         
         <HashLink smooth to='/#coupon'>Coupon</HashLink>
         <HashLink smooth to='/#sale'>Sale</HashLink>
+        <HashLink smooth to='/#contacts'>Contact</HashLink>
 
         <Link to='/cart' className={s.cart_logo}><BsHandbag /></Link>
       </nav>

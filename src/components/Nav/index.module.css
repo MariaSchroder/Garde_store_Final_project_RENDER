@@ -33,7 +33,6 @@
 
 .nav_left_container a {
     text-decoration: none; 
-    
 }
 
 .nav_right_container {
@@ -51,7 +50,6 @@
     text-decoration: none;
     color: #000000;  
     border-bottom: 1px solid transparent;
-
 }
 
 .nav_right_container a:hover  {
@@ -65,6 +63,5 @@
 
 .cart_logo {
     font-size: 30px;
-
 }
 
