@@ -11,7 +11,7 @@ export default function SalesSectionCard({ id, title, image, price, discont_pric
   return (
     <div className={s.sales_section}>
       <Link to={`/products/${id}`}>
-        <img src={`http://localhost:3333${image}`} alt={ title } />
+        <img src={`https://backend-test-qeyy.onrender.com${image}`} alt={ title } />
         
         <div className={s.price_block}>
           <p>{ discont_price } €</p>

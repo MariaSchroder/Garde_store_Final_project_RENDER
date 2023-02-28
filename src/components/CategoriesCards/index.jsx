@@ -9,7 +9,7 @@ return (
   <div className={s.categories}> 
     
     <Link to={`/categories/${id}`}>
-      <img src={`http://localhost:3333${image}`} alt={ title } /> 
+      <img src={`https://backend-test-qeyy.onrender.com${image}`} alt={ title } /> 
       <p className={s.categories_title}>{ title }</p> 
     </Link>
     

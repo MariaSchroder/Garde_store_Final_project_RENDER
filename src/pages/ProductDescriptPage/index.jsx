@@ -33,7 +33,7 @@ export default function ProductDescriptPage() {
       <p>{ title }</p>
       
       <div className={s.descr_page_info}>
-        <img src={`http://localhost:3333${image}`} alt={ title } />
+        <img src={`https://backend-test-qeyy.onrender.com${image}`} alt={ title } />
 
         <div>
           <div className={s.product_price_block}>

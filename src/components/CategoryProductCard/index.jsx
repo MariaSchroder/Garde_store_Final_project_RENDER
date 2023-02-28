@@ -16,7 +16,7 @@ export default function CategoryProductCard({id, title, image, price, discont_pr
   return (
     <div className={s.category_card}>
       <Link to={`/products/${id}`}>
-        <img src={`http://localhost:3333${image}`} alt={title} />
+        <img src={`https://backend-test-qeyy.onrender.com${image}`} alt={title} />
         
         <div className={s.product_price_block}>
             <span> 

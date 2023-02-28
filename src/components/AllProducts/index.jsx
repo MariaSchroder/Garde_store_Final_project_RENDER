@@ -16,7 +16,7 @@ export default function AllProducts({id, title, image, price, discont_price }) {
   return (
     <div className={s.all_products_card}>
       <Link to={`/products/${id}`}>
-        <img src={`http://localhost:3333${image}`} alt={title} />
+        <img src={`https://backend-test-qeyy.onrender.com${image}`} alt={title} />
       
         <div className={s.product_price_block}>
           <span> 

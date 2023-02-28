@@ -13,8 +13,8 @@ export default function Footer() {
           <p className={s.telefon}>+49 123 456 789</p>
         
           <div className={s.media_container}>
-            <a href="https://www.instagram.com/" target='blank'>Instagram</a>
-            <a href="https://www.whatsapp.com/" target='blank'>WhatsApp</a>
+            <a href="https://www.instagram.com" target='blank'>Instagram</a>
+            <a href="https://www.whatsapp.com" target='blank'>WhatsApp</a>
 
             <SiInstagram  className={s.instagram_logo}/> 
             <SiWhatsapp className={s.whatsapp_logo}/> 

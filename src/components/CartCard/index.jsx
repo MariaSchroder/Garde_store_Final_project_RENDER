@@ -19,7 +19,7 @@ export default function CartCard({ id, title, price, discont_price, image, count
       
       <div className={s.products_overview}>
         
-          <img src={`http://localhost:3333${image}`} alt={ title } /> 
+          <img src={`https://backend-test-qeyy.onrender.com${image}`} alt={ title } /> 
           <p>{ title }</p>
           
           <div className={s.triggers}>

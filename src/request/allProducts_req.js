@@ -2,7 +2,7 @@ import { loadAllProducts } from "../store/reducers/allProducts"
 
 
 export const load_all_products = dispatch => {
-    fetch('http://localhost:3333/products/all')
+    fetch('https://backend-test-qeyy.onrender.com/products/all')
         .then(resp => resp.json())
         .then(json => {
             const payload = json.map(el => ({
