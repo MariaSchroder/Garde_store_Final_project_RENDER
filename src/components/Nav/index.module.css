@@ -1,0 +1,65 @@
+.nav_container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 60px auto;
+    max-width: 1440px;
+    position: relative;
+}  
+
+.nav_left_container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 20px;
+    cursor: pointer;
+    margin-left: 20px;
+}
+
+.nav_left_container img {
+    width: 72px;
+    height: 72px;
+    margin-right: 20px;
+}
+
+.shop_title {
+    font-family: 'Kalam', cursive;
+    font-size: 40px;
+    color: #339933;
+    text-shadow: 1px 1px 2px #287b28;
+    position: absolute;
+    top: 16px;
+}
+
+.nav_left_container a {
+    text-decoration: none;   
+}
+
+.nav_right_container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 50px;
+    margin: 20px;
+    font-size: 19px;
+    font-weight: 400;
+    cursor: pointer;
+}
+
+.nav_right_container a {
+    text-decoration: none;
+    color: #000000;  
+}
+
+.nav_right_container a:hover  {
+   color: #339933;
+}
+
+.nav_right_container p:hover  {
+    color: #339933;
+ }
+
+.cart_logo {
+    font-size: 30px;
+}
+
